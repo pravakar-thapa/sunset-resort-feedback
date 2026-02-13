@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sunset Resort – Guest Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <h1>Sunset Resort</h1>
+    <p class="subtitle">We value your feedback. Please share your experience.</p>
+
+    <form>
+
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label>Name *</label>
+        <input type="text" required placeholder="John Doe">
+
+        <label>Email *</label>
+        <input type="email" required placeholder="example@email.com">
+
+        <label>Age</label>
+        <input type="number" min="10" max="100">
+      </fieldset>
+
+      <fieldset>
+        <legend>Was this your first visit?</legend>
+        <div class="inline">
+          <label><input type="radio" name="visit"> Yes</label>
+          <label><input type="radio" name="visit"> No</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Why did you choose us?</legend>
+        <div class="inline">
+          <label><input type="checkbox"> Location</label>
+          <label><input type="checkbox"> Price</label>
+          <label><input type="checkbox"> Reputation</label>
+          <label><input type="checkbox"> Recommendation</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Rate Our Services</legend>
+
+        <label>Service Quality</label>
+        <select>
+          <option>Excellent</option>
+          <option>Very Good</option>
+          <option>Good</option>
+          <option>Average</option>
+          <option>Poor</option>
+        </select>
+
+        <label>Food Quality</label>
+        <select>
+          <option>Excellent</option>
+          <option>Very Good</option>
+          <option>Good</option>
+          <option>Average</option>
+          <option>Poor</option>
+        </select>
+      </fieldset>
+
+      <label>Additional Comments</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Submit Feedback</button>
+
+    </form>
+  </main>
+
+</body>
+</html>
